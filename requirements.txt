@@ -1,0 +1,12 @@
+duckdb
+geopandas
+pandas
+numpy
+numexpr
+pyarrow
+scikit-learn
+matplotlib
+mapclassify
+contextily
+rasterio
+shapely
