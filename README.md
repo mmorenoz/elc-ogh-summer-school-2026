@@ -15,7 +15,7 @@ Two complementary strategies are covered:
 
 Open `tutorial.ipynb` in Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/drive/1rk4SKFF-tJCfQearcAGW9iXO30DNt5do#scrollTo=1996d79f)
+![Open In Colab](https://colab.research.google.com/drive/1rk4SKFF-tJCfQearcAGW9iXO30DNt5do#scrollTo=1996d79f)
 
 Or clone the repo and run it locally with Jupyter:
 
@@ -38,14 +38,19 @@ Data required to run the tutorial is downloaded automatically by the notebook's 
 
 ## Requirements
 
-See `requirements.txt`. GDAL command-line tools (`gdalwarp`, `gdalbuildvrt`) are also required for the raster clipping/alignment steps — install with `apt-get install -y gdal-bin` on Debian/Ubuntu-based systems (already available on Google Colab).
+See `requirements.txt`. GDAL command-line tools (`gdalwarp`, `gdalbuildvrt`) are also required for the raster clipping/alignment steps.
+
+- **Google Colab**: already available, no setup needed.
+- **Linux (Debian/Ubuntu)**: `sudo apt-get install -y gdal-bin`
+- **macOS**: `brew install gdal`
+- **Windows**: `conda install -c conda-forge gdal`
 
 
 ## Acknowledgments
 
-This research was supported by multiple grants, primarily by the [**Land
-& Carbon Lab Global Pasture Watch**](https://landcarbonlab.org/) grant from the Bezos Earth
-Fund and [Time2Graze grant](https://www.globalmethanehub.org/2025/09/10/the-global-methane-hub-launches-international-project-to-develop-satellite-guided-grazing-to-cut-livestock-emissions/) from Global Methane Hub.
+This research was supported by multiple grants, including the IFAD grant
+“Capitalising on Earth Obser vation Data to support Project
+Design, Implementation and Evaluation”.
 
 **[EarthMonitor.org](https://EarthMonitor.org/)** project has received
 funding from the European Union’s Horizon Europe research an innovation
