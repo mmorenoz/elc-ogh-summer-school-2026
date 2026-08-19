@@ -15,7 +15,7 @@ Two complementary strategies are covered:
 
 Open `tutorial.ipynb` in Google Colab:
 
-![Open In Colab](https://colab.research.google.com/drive/1Z3dwNU-yqTw-B7zKly90V-TOumxIZ5IZ#scrollTo=de72252d)
+![Open In Colab](https://colab.research.google.com/github/mmorenoz/elc-ogh-summer-school-2026/blob/main/tutorial.ipynb)
 
 Or clone the repo and run it locally with Jupyter:
 
