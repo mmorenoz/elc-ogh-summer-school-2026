@@ -15,7 +15,7 @@ Two complementary strategies are covered:
 
 Open `tutorial.ipynb` in Google Colab:
 
-![Open In Colab](https://colab.research.google.com/drive/1rk4SKFF-tJCfQearcAGW9iXO30DNt5do#scrollTo=1996d79f)
+![Open In Colab](https://colab.research.google.com/drive/1Z3dwNU-yqTw-B7zKly90V-TOumxIZ5IZ#scrollTo=de72252d)
 
 Or clone the repo and run it locally with Jupyter:
 
@@ -24,6 +24,17 @@ git clone https://github.com/mmorenoz/elc-ogh-summer-school-2026.git
 cd elc-ogh-summer-school-2026
 pip install -r requirements.txt
 jupyter notebook tutorial.ipynb
+```
+## Repository structure
+
+```
+elc-ogh-summer-school-2026/
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── tutorial.ipynb
+├── data/                # reference points and pre-clipped land cover products
+└── results/             # output placeholder
 ```
 
 ## Data
@@ -34,7 +45,7 @@ The tutorial uses:
 - Global 30m land cover products: GLanCE, GLC-FCS30D, GLAD-GLCLUC, NLCD
 - ESA WorldCereal (maize) and Global Pasture Watch (GPW) layers, for Part 2
 
-Data required to run the tutorial is downloaded automatically by the notebook's setup cells and is not stored in this repository. See the notebook for source URLs.
+The data required to run the tutorial is automatically downloaded by the notebook's setup cells and is not stored in this repository. See the notebook for source URLs.
 
 ## Requirements
 
@@ -44,7 +55,6 @@ See `requirements.txt`. GDAL command-line tools (`gdalwarp`, `gdalbuildvrt`) are
 - **Linux (Debian/Ubuntu)**: `sudo apt-get install -y gdal-bin`
 - **macOS**: `brew install gdal`
 - **Windows**: `conda install -c conda-forge gdal`
-
 
 ## Acknowledgments
 
@@ -61,7 +71,6 @@ programme under grant agreement
 received funding from the European Union’s Horizon Europe research an
 innovation programme under grant agreement
 **[No. 101287260](https://cordis.europa.eu/project/id/101287260)**.
-
 
 ## License
 
